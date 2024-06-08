@@ -14,6 +14,7 @@ import com.quiz.java.question.QuestionResponseDTO;
 
 @RestController
 @RequestMapping("/questions")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class QuestionController {
 
     @Autowired
